@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
             this.buttonSettings = new System.Windows.Forms.Button();
             this.buttonStartGame = new System.Windows.Forms.Button();
             this.labelLogo = new System.Windows.Forms.Label();
@@ -74,6 +75,8 @@
             this.Controls.Add(this.buttonStartGame);
             this.Controls.Add(this.buttonSettings);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormMenu";
             this.Text = "Menu";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSettings));
             this.groupBox_Skin = new System.Windows.Forms.GroupBox();
             this.comboBox_Skin = new System.Windows.Forms.ComboBox();
             this.groupBox_MineCount = new System.Windows.Forms.GroupBox();
@@ -357,6 +358,7 @@
             this.Controls.Add(this.groupBox_MineCount);
             this.Controls.Add(this.groupBox_Skin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormSettings";
